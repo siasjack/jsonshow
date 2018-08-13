@@ -1,6 +1,8 @@
 # jsonshow
 parase json data for shell script
-  
+if u have any question,come to here ask
+https://www.openwrtdl.com/wordpress/jsonshowshell%e5%a4%84%e7%90%86json%e6%95%b0%e6%8d%ae%e5%88%a9%e5%99%a8
+
 useage:  
 $ ./jsonshow -h  
 jsonshow(V0.1.0),build time:20180813  
