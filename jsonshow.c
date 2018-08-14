@@ -27,7 +27,7 @@ int parase_object(cJSON*root,char *cmd)
     ptr = strchr(cmd,'.');
 
     //judge if is #num
-    if(*cmd == '#'){
+    if(*cmd == '#' && *(cmd+1)>='0' && *(cmd+1)<='9' ){
         num=atoi(++cmd);
         if(root->type != cJSON_Array || cJSON_GetArraySize(root) < num){
             printf("cant find valid array or array size err!\n");
