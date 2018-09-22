@@ -55,7 +55,7 @@ int parase_object(cJSON*root,char *cmd)
             ptr = cJSON_Print_b(tmp);
         else
             ptr = cJSON_Print(tmp);
-        printf("%s\n",ptr);
+        printf("%s",ptr);
         free(ptr);
     }else{
         *ptr = '\0';
