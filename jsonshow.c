@@ -150,7 +150,7 @@ int main(int argc,char ** argv)
         fread(json_string,1,len,f);
         fclose(f);
     }
-    if(!json_string){
+    if(!json_string || !cmd ){
         help();
     }
     root = cJSON_Parse(json_string);
